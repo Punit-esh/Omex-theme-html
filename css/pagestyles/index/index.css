@@ -1118,7 +1118,7 @@ body.rtl .elementor-1476 .elementor-element.elementor-element-b6df40b .omega--tn
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
     margin-top: -30px;
     margin-bottom: 0;
-    padding: 0 0 100px 0
+    padding: 100px 0 100px 0
 }
 
 .elementor-1476 .elementor-element.elementor-element-03e8ccf .elementor-counter-number-wrapper {
@@ -3688,6 +3688,10 @@ body.rtl .elementor-33 .elementor-element.elementor-element-d96a9f1 .fd-addons-f
     padding: 0 0px 0 120px
 }
 
+.elementor-33 .elementor-element.elementor-element-d29a66c>.elementor-element-populated.reverse {
+    padding: 0 120px 0 0px
+}
+
 .elementor-33 .elementor-element.elementor-element-78b0684 .fd-addons-heading-title {
     color: #19191b;
     font-family: "Circular Std", Sans-serif;
@@ -4150,6 +4154,10 @@ body.rtl .elementor-33 .elementor-element.elementor-element-00bd4a0 .fd-addons-b
 
     .elementor-33 .elementor-element.elementor-element-d29a66c>.elementor-element-populated {
         padding: 0 0px 0 120px
+    }
+
+    .elementor-33 .elementor-element.elementor-element-d29a66c>.elementor-element-populated.reverse {
+        padding: 0 0px 0 0px
     }
 
     .elementor-33 .elementor-element.elementor-element-3d10877 {
