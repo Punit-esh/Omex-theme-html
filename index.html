@@ -231,7 +231,6 @@
     <!-- preloader  -->
 
     <div id="page" class="site">
-        <!-- <a class="skip-link screen-reader-text" href="#primary">Skip to content</a> -->
 
         <!-- end omega header -->
 
@@ -2014,7 +2013,8 @@
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     aria-required="true"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Your name"></span>
+                                                                                    placeholder="Your name"
+                                                                                    id="name"></span>
                                                                         </div>
                                                                         <div class="col-12">
                                                                             <span
@@ -2024,22 +2024,24 @@
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                     aria-required="true"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Email address"></span>
+                                                                                    placeholder="Email address"
+                                                                                    id="email"></span>
                                                                         </div>
-                                                                        <a href='./contact_us.html'>
-                                                                            <div class="col-12">
+                                                                        <!-- <a href='./contact_us.html'> -->
+                                                                        <div class="col-12">
 
-                                                                                <span
-                                                                                    class="wpcf7-form-control-wrap Emailaddress"><input
-                                                                                        type="" name="Emailaddress"
-                                                                                        value="Get Started" size="40"
-                                                                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                        aria-required="true"
-                                                                                        aria-invalid="false"
-                                                                                        placeholder="Get Started"
-                                                                                        style="background:#EC3237;color:#ffffff;border-color:#EC3237;cursor: pointer;"></span>
-                                                                            </div>
-                                                                        </a>
+                                                                            <span
+                                                                                class="wpcf7-form-control-wrap Emailaddress"><input
+                                                                                    type="" name="Emailaddress"
+                                                                                    value="Get Started" size="40"
+                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                    aria-required="true"
+                                                                                    aria-invalid="false"
+                                                                                    placeholder="Get Started"
+                                                                                    style="background:#EC3237;color:#ffffff;border-color:#EC3237;cursor: pointer;"
+                                                                                    onclick="handelsubmit_name_email()"></span>
+                                                                        </div>
+                                                                        <!-- </a> -->
                                                                         <!-- <div class="col-12">
                                                                             <input type="submit" value="Get Started"
                                                                                 class="wpcf7-form-control has-spinner wpcf7-submit"><span
@@ -2425,7 +2427,24 @@
         };
     </script>
     <script src="./js/index.js" data-minify="1"></script>
+    <script>
+        function handelsubmit_name_email() {
+            let url = `https://script.google.com/macros/s/AKfycbyPgM_Zy-4DoClR59DdZeQGQb6hvPrQKbyUJtiVROm8sEbmaGjXmg1ojQwjhizES8KCDQ/exec?name=${document.getElementById('name').value}&email=${document.getElementById('email').value}`;
+            fetch(url)
+                .then(response => window.location = '/contact_us.html')
+                .catch(response => window.location = '/contact_us.html')
+        }
+    </script>
     <span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211793356-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-211793356-1');
+    </script>
 </body>
 
 </html>
