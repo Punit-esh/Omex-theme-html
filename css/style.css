@@ -17,7 +17,7 @@
     /* border: 1px solid #CCC; */
     /* margin: 50px; */
     perspective: 400px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .cube {
@@ -114,7 +114,7 @@
     /* border: 2px solid black; */
     line-height: 100px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
     color: white;
     text-align: center;
 }
@@ -136,7 +136,7 @@
 
 .cube__face--left {
     background: #fff;
-    color: blue;
+    color: orange;
 }
 
 .cube__face--top {
@@ -146,7 +146,7 @@
 
 .cube__face--bottom {
     background: rgb(255, 255, 255);
-    color: orange;
+    color: blue;
 }
 
 .cube__face--front {
@@ -179,6 +179,9 @@ label {
     margin-right: 10px;
 }
 
+.flex_scene .txt {
+    font-size: 20px;
+}
 
 /* updating a prebuilded class */
 /* .elementor-widget-wrap .elementor-element.elementor-widget__width-auto,
@@ -268,6 +271,28 @@ right: 14px !important;
 .footer-section .site-logo img {
     max-width: unset !important;
     width: 100% !important;
+}
+
+.glide_logo {
+    height: 20px !important;
+    vertical-align: baseline;
+    margin-inline: 5px;
+}
+
+.company_logo {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+
+}
+
+.company_logo img {
+    padding-inline: 10px;
+    text-align: center;
+}
+
+.read_more {
+    color: #EC3237;
 }
 
 @media screen and (max-width: 1024px) {

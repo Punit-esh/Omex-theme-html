@@ -197,7 +197,7 @@ data-elementor-settings="[]">
                                         data-settings="{&quot;fd_addons_sticky&quot;:&quot;no&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>© 2019 - MS Cube Systems Pvt Ltd</p>
+                                            <p>© 2019 - Mordernizing Processes</p>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@ data-elementor-settings="[]">
                                         <div class="elementor-widget-container">
                                             <ul class="elementor-icon-list-items elementor-inline-items">
                                                 <li class="elementor-icon-list-item elementor-inline-item">
-                                                    <a href="https://instagram.com/">
+                                                    <a href="https://www.instagram.com/modernizing.processes/">
 
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true"
@@ -221,7 +221,7 @@ data-elementor-settings="[]">
                                                     </a>
 
                                                 <li class="elementor-icon-list-item elementor-inline-item">
-                                                    <a href="https://linkedin.com/">
+                                                    <a href="https://www.linkedin.com/company/modernizingprocesses/">
 
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true"
@@ -230,7 +230,7 @@ data-elementor-settings="[]">
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item elementor-inline-item">
-                                                    <a href="https://www.facebook.com/">
+                                                    <a href="https://www.facebook.com/MSCubeSystems/">
 
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true"
@@ -239,7 +239,7 @@ data-elementor-settings="[]">
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item elementor-inline-item">
-                                                    <a href="https://www.twitter.com/">
+                                                    <a href="https://twitter.com/ModernProcesses">
 
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true"
