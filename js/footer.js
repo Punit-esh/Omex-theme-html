@@ -197,7 +197,7 @@ data-elementor-settings="[]">
                                         data-settings="{&quot;fd_addons_sticky&quot;:&quot;no&quot;}"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>© 2019 - Mordernizing Processes</p>
+                                            <p>© 2019 - Modernizing Processes</p>
                                         </div>
                                     </div>
                                 </div>
