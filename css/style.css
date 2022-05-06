@@ -373,6 +373,9 @@ right: 14px !important;
 
     }
 
+    .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-62[active='true']:after {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -390,5 +393,6 @@ right: 14px !important;
     .education_collage .education_collage_img1 {
         display: none;
     }
+
 
 }
