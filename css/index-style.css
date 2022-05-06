@@ -4862,8 +4862,8 @@ input.components-combobox-control__input[type=text]:focus {
     vertical-align: baseline;
     background: transparent;
     counter-increment: checkout-step;
-    content: " "counter(checkout-step) ".";
-    content: " "counter(checkout-step) "."/"";
+    content: " " counter(checkout-step) ".";
+    content: " " counter(checkout-step) "." /"";
     position: absolute;
     width: 24px;
     left: -24px;
@@ -4889,7 +4889,7 @@ input.components-combobox-control__input[type=text]:focus {
     left: auto;
     top: auto;
     content: counter(checkout-step) ". ";
-    content: counter(checkout-step) ". "/""
+    content: counter(checkout-step) ". " /""
 }
 
 .is-mobile .wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after,
@@ -36026,7 +36026,7 @@ fieldset:disabled .btn {
     --heading-color: #19191B;
     --text-color: #696871;
     --accent-color: #F04037;
-    --accent-color-2: #5454D4;
+    --accent-color-2: #193498;
     --white-color: #fff;
     --body-font: 'Circular Std';
     --heading-font: 'Circular Std';
@@ -37709,7 +37709,7 @@ div.wpcf7 .ajax-loader {
     --heading-color: #19191B;
     --text-color: #696871;
     --accent-color: #F04037;
-    --accent-color-2: #5454D4;
+    --accent-color-2: #193498;
     --white-color: #fff;
     --body-font: 'Circular Std';
     --heading-font: 'Circular Std';
@@ -51159,7 +51159,7 @@ a.fd-addons-btn.btn-type-boxed {
     height: 2px;
     position: absolute;
     transition: all 0.2s linear;
-    background: #5454D4
+    background: #193498
 }
 
 .fd-addons-btn.style-two .content::before,
@@ -51169,7 +51169,7 @@ a.fd-addons-btn.btn-type-boxed {
     height: 0;
     position: absolute;
     transition: all 0.2s linear;
-    background: #5454D4
+    background: #193498
 }
 
 .fd-addons-btn.style-two::before {
@@ -84863,8 +84863,8 @@ input.components-combobox-control__input[type=text]:focus {
     vertical-align: baseline;
     background: transparent;
     counter-increment: checkout-step;
-    content: " "counter(checkout-step) ".";
-    content: " "counter(checkout-step) "."/"";
+    content: " " counter(checkout-step) ".";
+    content: " " counter(checkout-step) "." /"";
     position: absolute;
     width: 24px;
     left: -24px;
@@ -84890,7 +84890,7 @@ input.components-combobox-control__input[type=text]:focus {
     left: auto;
     top: auto;
     content: counter(checkout-step) ". ";
-    content: counter(checkout-step) ". "/""
+    content: counter(checkout-step) ". " /""
 }
 
 .is-mobile .wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after,
@@ -116028,7 +116028,7 @@ fieldset:disabled .btn {
     --heading-color: #19191B;
     --text-color: #696871;
     --accent-color: #F04037;
-    --accent-color-2: #5454D4;
+    --accent-color-2: #193498;
     --white-color: #fff;
     --body-font: 'Circular Std';
     --heading-font: 'Circular Std';
@@ -117711,7 +117711,7 @@ div.wpcf7 .ajax-loader {
     --heading-color: #19191B;
     --text-color: #696871;
     --accent-color: #F04037;
-    --accent-color-2: #5454D4;
+    --accent-color-2: #193498;
     --white-color: #fff;
     --body-font: 'Circular Std';
     --heading-font: 'Circular Std';
@@ -131161,7 +131161,7 @@ a.fd-addons-btn.btn-type-boxed {
     height: 2px;
     position: absolute;
     transition: all 0.2s linear;
-    background: #5454D4
+    background: #193498
 }
 
 .fd-addons-btn.style-two .content::before,
@@ -131171,7 +131171,7 @@ a.fd-addons-btn.btn-type-boxed {
     height: 0;
     position: absolute;
     transition: all 0.2s linear;
-    background: #5454D4
+    background: #193498
 }
 
 .fd-addons-btn.style-two::before {

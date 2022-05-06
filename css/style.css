@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+:root {
+    --accent-color-2: #193498 !important
+}
 
 
 .flex_scene {
@@ -295,6 +298,71 @@ right: 14px !important;
     color: #EC3237;
 }
 
+.padding_special {
+    display: flex;
+}
+
+.padding_special>div:first-child,
+.padding_special>div:not(:last-child):not(:first-child) {
+    padding-right: 10px;
+}
+
+
+
+.padding_special>div:last-child,
+.padding_special>div:not(:last-child):not(:first-child) {
+    padding-left: 10px
+}
+
+.career_card_center {
+    right: 0;
+    margin: auto;
+}
+
+.elementor-element-a7a539d:not(.elementor-motion-effects-element-type-background),
+.elementor-element-a7a539d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #5454D4 0%, #A029F2 100%);
+    padding: 60px 0px 61px 0px;
+}
+
+.elementor-element.elementor-element-1baa080 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Circular Std", Sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.16em;
+    letter-spacing: -1.88px;
+}
+
+.education_collage {
+    text-align: center;
+}
+
+.education_collage .education_collage_img2 {
+    display: none;
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-62 {
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-62[active='true']:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    /* width: 100%; */
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 5px;
+    background: #ec3238;
+    /* background-image: repeating-linear-gradient(45deg, #ec32388f, #1d389a91, #ec32388f); */
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .footer-section .site-logo {
         text-align: center;
@@ -303,6 +371,24 @@ right: 14px !important;
     .footer-section .site-logo img {
         width: 100% !important;
 
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .padding_special,
+    .education_collage .education_collage_img2 {
+        display: unset;
+    }
+
+    .padding_special>div {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .education_collage .education_collage_img1 {
+        display: none;
     }
 
 }

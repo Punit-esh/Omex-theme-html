@@ -1,27 +1,26 @@
+{
+  /* <div class="omega--tn-icon">
+   <span class="inactive_color"><i
+           class="active_color fas fa-star"
+           aria-hidden="true"></i></span>
+   <span class="inactive_color"><i
+           class="active_color fas fa-star"
+           aria-hidden="true"></i></span>
+   <span class="inactive_color"><i
+           class="active_color fas fa-star"
+           aria-hidden="true"></i></span>
+   <span class="inactive_color"><i
+           class="active_color fas fa-star"
+           aria-hidden="true"></i></span>
+   <span class="inactive_color"><i
+           class="active_color fas fa-star"
+           aria-hidden="true"></i></span>
+</div>  */
+}
 const review = (msg, img, name, pos) => `
 
-<div class="col-xl-4 col-lg- col-md-6 col-sm-12">
+<div class="col-12">
     <div class="omega--tn-single style-nine">
-        <!-- <div class="omega--tn-icon">
-            <span class="inactive_color"><i
-                    class="active_color fas fa-star"
-                    aria-hidden="true"></i></span>
-            <span class="inactive_color"><i
-                    class="active_color fas fa-star"
-                    aria-hidden="true"></i></span>
-            <span class="inactive_color"><i
-                    class="active_color fas fa-star"
-                    aria-hidden="true"></i></span>
-            <span class="inactive_color"><i
-                    class="active_color fas fa-star"
-                    aria-hidden="true"></i></span>
-            <span class="inactive_color"><i
-                    class="active_color fas fa-star"
-                    aria-hidden="true"></i></span>
-        </div> -->
-        <div class="omega--tn-dis">
-            <p>${msg}</p>
-        </div>
         <div class="omega-tn-bottom-style-nine">
             <div class="omega--tn-top">
                 <div class="omega--t-thumb">
@@ -35,11 +34,15 @@ const review = (msg, img, name, pos) => `
             </div>
             <div class="omega--tn-name-title">
                 <h4 class="omega--tn-name">
-                    ${name} name</h4>
+                    ${name}</h4>
                 <span class="omega--tn-title">
-                    ${pos}pos </span>
+                    ${pos}</span>
             </div>
         </div>
+        <div class="omega--tn-dis">
+            <p>${msg}</p>
+        </div>
+        
     </div>
 </div>
 `;
