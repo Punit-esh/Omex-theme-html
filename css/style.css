@@ -361,6 +361,10 @@ right: 14px !important;
     /* background-image: repeating-linear-gradient(45deg, #ec32388f, #1d389a91, #ec32388f); */
 }
 
+.text-center-mobile h2,
+.text-center-mobile h4 {
+    text-align: center !important;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -376,6 +380,7 @@ right: 14px !important;
     .menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-62[active='true']:after {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 767px) {
