@@ -61,7 +61,7 @@ const review_list = [
   },
   {
     msg: `Hi, my name is Ron and I've been dealing with Modernizing Processes, Manan and his team for about a year now. And they've been very helpful and diligent and creating the minimum viable product that I needed to help move my business forward. They were able to get a product together in a very short period of time that was very functional and helpful to me and my business. So I highly recommend them for any of your projects that you might be considering.`,
-    img: "Ron Debaisse Jr.png",
+    img: "atlas.png",
     name: "Ron DeBiasse Jr",
     pos: "Managing Partner of Atlas Properties",
   },
