@@ -410,6 +410,10 @@ right: 14px !important;
     margin: auto;
 }
 
+.elementor-4059 .elementor-element.elementor-element-dbc7a7b {
+    padding: 220px 0px 80px 0px !important;
+}
+
 @media screen and (max-width: 1024px) {
     .footer-section .site-logo {
         text-align: center;
@@ -500,5 +504,9 @@ right: 14px !important;
     .company-img-index img {
         height: 80px !important;
         width: auto !important;
+    }
+
+    .elementor-4059 .elementor-element.elementor-element-dbc7a7b {
+        padding: 150px 0px 50px 0px !important;
     }
 }
