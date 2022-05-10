@@ -3,6 +3,54 @@
     box-sizing: border-box;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
+.go_to_top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    background: #EC3237;
+    z-index: 100;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(200%);
+    transition: all 300ms ease-in-out;
+    height: 50px;
+    width: 50px;
+}
+
+.go_to_top[show='yes'] {
+    opacity: 0.8;
+    transform: translateY(0);
+}
+
+.go_to_top[show='yes'][footer='yes'] {
+    bottom: 100;
+}
+
+.go_to_top:hover {
+    opacity: 1;
+}
+
+.go_to_top img {
+    padding: 5px;
+    height: 100%;
+    -webkit-filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff);
+    filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff);
+    position: relative;
+}
+
+.go_to_top img.to_top_img2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 :root {
     --accent-color-2: #193498 !important
 }
@@ -448,6 +496,9 @@ right: 14px !important;
 }
 
 @media screen and (max-width: 767px) {
+    .go_to_top[show='yes'][footer='yes'] {
+        bottom: 20px;
+    }
 
     .padding_special,
     .education_collage .education_collage_img2 {
