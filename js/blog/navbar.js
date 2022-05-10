@@ -105,7 +105,7 @@ const header_navigation = `
                                                                                 <li id="menu-item-01"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62  "
                                                                                     >
-                                                                                    <a href="../index.html">1Home</a>
+                                                                                    <a href="../index.html">Home</a>
                                                                                 </li>
                                                                                 <li id="menu-item-02"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62  "

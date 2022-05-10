@@ -114,7 +114,7 @@ const header_navigation = `
                                                                                         ? "#"
                                                                                         : "./index.html"
                                                                                     }
-                                                                                    ">1Home</a>
+                                                                                    ">Home</a>
                                                                                 </li>
                                                                                 <li id="menu-item-02"
                                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62  "
