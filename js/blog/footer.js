@@ -261,4 +261,4 @@ data-elementor-settings="[]">
 </div>
 </div>
 `;
-document.getElementById("footer_blog").innerHTML = footer;
+document.getElementById("footer").innerHTML = footer;

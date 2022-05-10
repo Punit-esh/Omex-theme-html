@@ -1,5 +1,6 @@
-const footer = `
-
+// const footer = `
+document.body.innerHTML += `
+<footer class="footer-section" id="footer">
 <div data-elementor-type="wp-post" data-elementor-id="971" class="elementor elementor-971"
 data-elementor-settings="[]">
 <div class="elementor-section-wrap">
@@ -260,5 +261,6 @@ data-elementor-settings="[]">
     </section>
 </div>
 </div>
+</footer>
 `;
-document.getElementById("footer").innerHTML = footer;
+// document.getElementById("footer").innerHTML = footer;

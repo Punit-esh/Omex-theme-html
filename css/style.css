@@ -10,8 +10,8 @@ body {
 .go_to_top {
     cursor: pointer;
     position: fixed;
-    bottom: 20;
-    right: 20;
+    bottom: 20px;
+    right: 20px;
     background: #EC3237;
     z-index: 100;
     color: #fff;
@@ -29,7 +29,7 @@ body {
 }
 
 .go_to_top[show='yes'][footer='yes'] {
-    bottom: 100;
+    bottom: 100px;
 }
 
 .go_to_top:hover {
@@ -39,8 +39,8 @@ body {
 .go_to_top img {
     padding: 5px;
     height: 100%;
-    -webkit-filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff);
-    filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff);
+    /* -webkit-filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff); */
+    /* filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px -1px 0px #fff) drop-shadow(-1px 1px 0px #fff) drop-shadow(1px -1px 0px #fff); */
     position: relative;
 }
 
@@ -460,6 +460,14 @@ right: 14px !important;
 
 .elementor-4059 .elementor-element.elementor-element-dbc7a7b {
     padding: 220px 0px 80px 0px !important;
+}
+
+.elementor-33 .elementor-element.elementor-element-4dbf6ae:not(.elementor-motion-effects-element-type-background) {
+    background-color: #19191B !important;
+}
+
+.elementor-invisible {
+    visibility: unset !important;
 }
 
 @media screen and (max-width: 1024px) {

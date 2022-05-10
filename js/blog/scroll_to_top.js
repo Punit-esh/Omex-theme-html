@@ -7,9 +7,9 @@ const handleclick_go_to_top = () => {
 const scroll_div = document.body;
 
 scroll_div.innerHTML += `<div title="Go To Top" class="go_to_top" id="go_to_top">
-<img class='to_top_img1' src="./images/white-arrowhead-up.png">
-<img class='to_top_img2' src="./images/white-arrowhead-up.png">
-</div>`;
+  <img class='to_top_img1' src="../images/white-arrowhead-up.png">
+  <img class='to_top_img2' src="../images/white-arrowhead-up.png">
+  </div>`;
 
 const to_top_div = document.getElementById("go_to_top");
 
